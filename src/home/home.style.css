@@ -1,0 +1,46 @@
+header{
+    height: 10vh;
+}
+main{
+    height: 90vh;
+}
+.feature{
+    height: 100%;
+}
+div.container-fluid#home-page{
+    background: linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.4)), url('../assets/newspapers.jpg') no-repeat;
+    background-size: cover;
+}
+input#site-search{
+    padding: 1rem;
+    border: 1px solid #a81b1b;
+    border-radius: 10px;
+    width: 100%;
+    color: black;
+    margin-top: 10px;
+}
+input#site-search:focus{
+    border: 4px solid #7d1b1b;
+    outline: none;
+}
+div.row#header-row{
+    background-color: #a81b1b;
+    color:white;
+}
+div.hide{
+    visibility: none;
+}
+div#news-list{
+    background: linear-gradient(225deg, white, transparent);
+    height: 90%;
+    overflow: auto;
+}
+h2#feature-heading{
+    margin-left: 15px;
+}
+div#latest-list{
+    background: linear-gradient(45deg, black, transparent);
+    height: 90%;
+    overflow: auto;
+    color:white;
+}
